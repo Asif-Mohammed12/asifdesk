@@ -1668,6 +1668,9 @@ body.light hr.separator {
 }
 
 @media (max-width: 576px) {
+  .bookButton, .bookButton::after{
+    float: left;
+  }
   .btn {
     font-size: 14px;
   }
